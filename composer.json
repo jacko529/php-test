@@ -1,5 +1,5 @@
 {
-    "name": "tsc/3sc-php-task",
+    "name": "src/3sc-php-task",
     "description": "3 Sided Cube PHP Task",
     "type": "project",
     "require-dev": {
@@ -8,7 +8,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Tsc\\CatStorageSystem\\": "src/"
+            "Tsc\\CatStorageSystem": "src"
         }
     },
     "autoload-dev": {

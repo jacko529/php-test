@@ -1,45 +1,34 @@
 # 3SC PHP Task
 
-### Getting Started
+### Usage
 
-* Clone this repository
-* Run `composer install` from the project directory
-* Commit your progress
-* You'll need php 5.6+ (ideally 7.1)
 
-### Task
-You will be building a simple ~~image~~ cat gif storage system.
+Remember who ever reads this - when passing in the path you start from \src 
 
-Some interfaces have been provided in the `/src` directory. Your solution
-should implement each of these and provide usage examples which may be run
-from the command line.
+- Rename file - from command line  'php src/FileSystemOperations/FileOperationUsage/RenameFile.php \src\to\file\currentfilename.gif  \src\to\file\newfileName.gif'
 
-The solution should demonstrate manipulation of the filesystem using the 
-images provided in the `/images` directory.
+- Rename Directory - from command line - php src/FileSystemOperations/FileOperationUsage/RenameFile.php \src\to\file\currentfilename.gif  \src\to\file\newfileName.gif
 
-### Important
+-
 
-Your solution should demonstrate use of OO design principles, particularly
-[SOLID](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)) and you
-may choose to use any additional design patterns.
+- Get Directory Size  (pass in a directory) - php src/FileSystemOperations/FileOperationUsage/GetDirectorySize.php \src\to\directory
 
-Additionally you may wish to make use of features provided by
-[Standard PHP Library](http://php.net/manual/en/book.spl.php), however this is
-optional.
+- Get the amount of files in a directory  - php src/FileSystemOperations/FileOperationUsage/GetFileCountInDirectory.php \src\to\directory
 
-Your solution is not required to demonstrate uploading of files, and does
-not require a HTML front end. It should include a usage example that may be run from
-the command line to demonstrate reading and manipulation of the filesystem.
+- delete a file  - php src/FileSystemOperations/FileOperationUsage/GetDirectorySize.php \src\to\file
 
-Some sample images have been provided in the `/images` directory.
+- delete a directory - php src/FileSystemOperations/FileOperationUsage/GetDirectorySize.php \src\to\directory
 
-### Tests
-Your solution should include some unit tests. Some examples have been provided already.
+- create a file - php src/FileSystemOperations/FileOperationUsage/CreateFile.php \src\to\where\the\file\will\go\with\name
 
-To run tests, run the following commands:
+- create a directory - php src/FileSystemOperations/FileOperationUsage/CreateDirectory.php \src\to\new\directory
 
-```
-composer install
+- Get directories - php src/FileSystemOperations/FileOperationUsage/GetDirectories.php \src\to\directory
 
-./vendor/bin/phpunit
-```
+- Get directory count - php src/FileSystemOperations/FileOperationUsage/GetDirectoryCount.php \src\to\directory
+
+All usage ones are the same - 
+
+The only one not complete is update file. 
+
+Only a couple of tests created, run the script as normal. 
