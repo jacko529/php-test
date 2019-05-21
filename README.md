@@ -31,4 +31,4 @@ All usage ones are the same -
 
 The only one not complete is update file. 
 
-Only a couple of tests created, run the script as normal. 
+Only a couple of tests created, run the vendor script as normal to look and see. 
